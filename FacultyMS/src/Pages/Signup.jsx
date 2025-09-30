@@ -6,19 +6,24 @@ import logo from "../assets/University.png";
 const Signup = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#F4F4F4]">
-      <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md border border-gray-200">
+      <div className="w-full max-w-md bg-white p-10 rounded-lg shadow-md border border-gray-200">
         
         {/* Logo */}
         <div className="flex justify-center mb-4">
-          <img src={logo} alt="University Logo" className="h-16" />
+          <img src={logo} alt="University Logo" className="h-20 w-20" />
         </div>
+
+        {/* Page Title */}
+        <h2 className="text-xl font-bold text-center text-gray-800 mb-2">
+          Create Account
+        </h2>
 
         {/* Heading */}
         <h1 className="text-2xl font-bold text-center text-[#0019A8]">
-          Create Account
+          Faculty Management System
         </h1>
         <p className="text-center text-sm text-gray-600 mb-6">
-          Faculty Management System
+          Gautam Buddha University
         </p>
 
         {/* Form */}
